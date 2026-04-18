@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env php
 <?php
 
@@ -16,3 +17,20 @@ $app = require_once __DIR__.'/bootstrap/app.php';
 $status = $app->handleCommand(new ArgvInput);
 
 exit($status);
+=======
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Category extends Model
+{
+    protected $fillable = ['name'];
+
+public function products(){
+    return $this->hasMany(Product::class);
+}
+}
+>>>>>>> 3f08a598baf1a6db39f708101da24cbc6e73b656
