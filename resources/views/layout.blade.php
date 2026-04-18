@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
     <title>Quản lý hệ thống</title>
 
     <!-- Bootstrap -->
@@ -48,6 +49,24 @@
 <!-- JS -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0/dist/js/select2.min.js"></script>
+=======
+
+<title>Quản Lý Sinh Viên</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container mt-4">
+
+<h2 class="text-center mb-4">Quản Lý Sinh Viên</h2>
+
+@yield('content')
+
+</div>
+>>>>>>> a82435391ceea19b1bb587b982fffff116369fd6
 
 </body>
 </html>

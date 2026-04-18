@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentController;
+<<<<<<< HEAD
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\EnrollmentController;
 use App\Http\Controllers\OrderController;
@@ -27,3 +28,29 @@ Route::get('/orders', [OrderController::class, 'index'])->name('orders.index');
 Route::post('/orders', [OrderController::class, 'store']);
 Route::get('/orders/{id}', [OrderController::class, 'show']);
 Route::get('/orders/status/{id}/{status}', [OrderController::class, 'updateStatus']);
+=======
+
+Route::get('/students', [StudentController::class, 'index']);
+
+Route::get('/students/create', [StudentController::class, 'create']);
+
+Route::post('/students/store', [StudentController::class, 'store']);
+
+Route::get('/students/edit/{id}', [StudentController::class, 'edit']);
+
+Route::post('/students/update/{id}', [StudentController::class, 'update']);
+
+Route::get('/students/delete/{id}', [StudentController::class, 'delete']);
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
+*/
+
+Route::get('/', [StudentController::class,'index']);
+>>>>>>> a82435391ceea19b1bb587b982fffff116369fd6

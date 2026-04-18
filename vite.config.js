@@ -1,7 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import tailwindcss from '@tailwindcss/vite';
+=======
+import { defineConfig } from 'vite';
+import laravel from 'laravel-vite-plugin';
+>>>>>>> a82435391ceea19b1bb587b982fffff116369fd6
 
 export default defineConfig({
     plugins: [
@@ -9,6 +14,7 @@ export default defineConfig({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,
         }),
+<<<<<<< HEAD
         tailwindcss(),
     ],
     server: {
@@ -51,3 +57,7 @@ export default defineConfig({
 </body>
 </html>
 >>>>>>> 3f08a598baf1a6db39f708101da24cbc6e73b656
+=======
+    ],
+});
+>>>>>>> a82435391ceea19b1bb587b982fffff116369fd6

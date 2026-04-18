@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
     "$schema": "https://www.schemastore.org/package.json",
     "private": true,
@@ -52,3 +53,18 @@ return [
 
 ];
 >>>>>>> 3f08a598baf1a6db39f708101da24cbc6e73b656
+=======
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.0",
+        "vite": "^5.0.0"
+    }
+}
+>>>>>>> a82435391ceea19b1bb587b982fffff116369fd6
